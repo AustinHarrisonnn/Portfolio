@@ -1,5 +1,38 @@
 .header {
-    background-color: red;
-    align-items: center;
-    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    width: 800px;
+    height: 550px;
+}
+
+.header h1 {
+    font-size: 42px;
+}
+
+.header h3 {
+    color: grey;
+}
+
+.buttonHolder {
+    padding-top: 2rem;
+}
+
+.resumeButton {
+    background-color: rgb(238, 234, 234);
+    border-radius: 30px;
+    width: 9rem;
+    height: 4rem;
+    color: black;
+    font-size: 17px;
+}
+
+.animatedText {
+    opacity: 0;
+    animation: fadeInOut 6s infinite;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
 }
