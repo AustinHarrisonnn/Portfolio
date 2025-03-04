@@ -5,11 +5,13 @@
 }
 
 .header h1 {
-    font-size: 42px;
+    font-size: 66px;
+    font-weight: 400px;
+    margin: 0;
 }
 
 .header h3 {
-    color: grey;
+    color: rgb(167, 167, 167);
 }
 
 .buttonHolder {
@@ -28,6 +30,10 @@
 .animatedText {
     opacity: 0;
     animation: fadeInOut 6s infinite;
+    background: radial-gradient(circle, rgb(230, 230, 230), rgb(172, 172, 172));
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
 }
 
 @keyframes fadeInOut {
